@@ -14,9 +14,9 @@ public class BaseTest {
 
         driver = DriverFactory.initializeDriver();
         driver.get("https://fixerszonixs.web.app/auth/login");
-        LoginPage login = new LoginPage(driver);
-
-        login.login("abc@gmail.com","sufyaN1@");
+//        LoginPage login = new LoginPage(driver);
+//
+//        login.login("abc@gmail.com","sufyaN1@");
     }
 
     @AfterMethod
