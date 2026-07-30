@@ -12,17 +12,16 @@ public class BaseTest {
     @BeforeMethod
     public void setup() {
 
-        driver = DriverFactory.initializeDriver();
-        driver.get("https://fixerszonixs.web.app/auth/login");
-//        LoginPage login = new LoginPage(driver);
-//
-//        login.login("abc@gmail.com","sufyaN1@");
-    }
+    	 driver = DriverFactory.initializeDriver();
+    	    driver.get("https://fixerszonixs.web.app/auth/login");
 
-    @AfterMethod
-    public void tearDown() {
+    	    System.out.println("URL: " + driver.getCurrentUrl());
+    	    System.out.println("TITLE: " + driver.getTitle());
 
-        
-    }
+    	    try {
+    	        Thread.sleep(10000);
+    	    } catch (Exception e) {
+    	    }
 
 }
+    }
