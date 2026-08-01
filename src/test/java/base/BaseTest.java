@@ -14,6 +14,8 @@ public class BaseTest {
 
     	 driver = DriverFactory.initializeDriver();
     	    driver.get("https://fixerszonixs.web.app/auth/login");
+    	    
+    	    
 
     	    System.out.println("URL: " + driver.getCurrentUrl());
     	    System.out.println("TITLE: " + driver.getTitle());

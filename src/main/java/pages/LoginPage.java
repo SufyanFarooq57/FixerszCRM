@@ -25,7 +25,7 @@ public class LoginPage {
 	    @FindBy(id="password")
 	    WebElement txtPassword;
 
-	    @FindBy(xpath="/html/body/div/div/div[1]/div[3]/div[2]/form/div[3]/button")
+	    @FindBy(xpath="//*[@id=\"root\"]/div/div[1]/div[1]/div/div/div/form/div[3]/button")
 	    WebElement btnLogin;
 	    
 	    

@@ -10,8 +10,10 @@ public class TaskTest extends BaseTest{
 	
 	@Test
 	private void task() {
+		
 		LoginPage login = new LoginPage(driver);
 		login.login("abc@gmail.com","sufyaN1@");
+		
 		Tasks task = new Tasks(driver);
 		task.clickTask();
        
